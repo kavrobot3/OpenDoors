@@ -1,6 +1,7 @@
 import React from 'react';
 import { ActiveTab, TopologyNode } from '../types';
 import { TOPOLOGY_NODES } from '../data/topologyData';
+import { ashwithaImg, nakshithaImg } from '../assets/images';
 
 interface PathwaysViewProps {
   isMobile: boolean;
@@ -467,12 +468,12 @@ export const PathwaysView: React.FC<PathwaysViewProps> = ({
                 <img
                   alt="Ashwitha - Co-Founder"
                   className="w-10 h-10 rounded-full object-cover border-2 border-white shadow-sm"
-                  src="/assets/ashwitha_founder_1791795080913.jpg"
+                  src={ashwithaImg}
                 />
                 <img
                   alt="Nakshitha - Co-Founder"
                   className="w-10 h-10 rounded-full object-cover border-2 border-white shadow-sm"
-                  src="/assets/nakshitha_cofounder_1791795105734.jpg"
+                  src={nakshithaImg}
                 />
               </div>
               <div className="text-left">

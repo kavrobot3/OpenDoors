@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { submitStudentDilemmaToSupabase } from '../services/supabaseService';
 import { StudentDilemma } from '../types';
+import { ashwithaImg, nakshithaImg } from '../assets/images';
 
 interface AskUsViewProps {
   isMobile: boolean;
@@ -102,12 +103,12 @@ export const AskUsView: React.FC<AskUsViewProps> = ({
                   <img
                     alt="Ashwitha - Co-Founder"
                     className="w-14 h-14 rounded-full object-cover shadow-sm bg-[#f8ece1] border-2 border-white"
-                    src="/assets/ashwitha_founder_1791795080913.jpg"
+                    src={ashwithaImg}
                   />
                   <img
                     alt="Nakshitha - Co-Founder"
                     className="w-14 h-14 rounded-full object-cover shadow-sm bg-[#f8ece1] border-2 border-white"
-                    src="/assets/nakshitha_cofounder_1791795105734.jpg"
+                    src={nakshithaImg}
                   />
                 </div>
                 <div>
@@ -570,12 +571,12 @@ export const AskUsView: React.FC<AskUsViewProps> = ({
               <img
                 alt="Ashwitha - Co-Founder"
                 className="w-20 h-20 lg:w-24 lg:h-24 rounded-full object-cover shadow-lg border-2 border-white"
-                src="/assets/ashwitha_founder_1791795080913.jpg"
+                src={ashwithaImg}
               />
               <img
                 alt="Nakshitha - Co-Founder"
                 className="w-20 h-20 lg:w-24 lg:h-24 rounded-full object-cover shadow-lg border-2 border-white"
-                src="/assets/nakshitha_cofounder_1791795105734.jpg"
+                src={nakshithaImg}
               />
             </div>
             <div className="space-y-2 text-center md:text-left">
