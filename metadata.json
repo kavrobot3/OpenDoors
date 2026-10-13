@@ -1,0 +1,7 @@
+{
+  "name": "OpenDoors Foundation",
+  "description": "Independent, unranked, and commercial-free higher education guide and university benchmark directory for students in Classes 11–12.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

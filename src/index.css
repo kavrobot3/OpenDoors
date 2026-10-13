@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-surface: #fff8f4;
+    --color-surface-dim: #e4d8cd;
+    --color-surface-bright: #fff8f4;
+    --color-surface-container-lowest: #ffffff;
+    --color-surface-container-low: #fef2e6;
+    --color-surface-container: #f8ece1;
+    --color-surface-container-high: #f2e6db;
+    --color-surface-container-highest: #ece0d6;
+    --color-on-surface: #201b14;
+    --color-on-surface-variant: #504441;
+    --color-primary: #72564c;
+    --color-primary-container: #8d6e63;
+    --color-on-primary: #ffffff;
+    --color-secondary: #74584e;
+    --color-secondary-container: #fed7ca;
+    --color-on-secondary-container: #795c52;
+    --color-tertiary: #864a57;
+    --color-tertiary-container: #a2626f;
+    --color-brick: #b87f72;
+    --color-pink-soft: #f5c8d0;
+    --color-paper-raised: #fbf5ee;
+    --color-paper-muted: #ede0d2;
+    --color-callout-warn: #f3e2db;
+    --color-ink: #4a3229;
+    --color-ink-soft: #7a6259;
+    --color-ink-faint: #b3a093;
+    --color-dark-surface: #5c4438;
+    --color-dark-input: #4a342a;
+    --color-dark-border: #7c5d4e;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-surface);
+    color: var(--color-ink);
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .font-editorial {
+    font-family: 'Times New Roman', 'Playfair Display', Georgia, serif;
+  }
+
+  /* Custom utility scrollbar hiding */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  * {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
